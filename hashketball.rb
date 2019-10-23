@@ -155,7 +155,7 @@ def team_colors(team_name)
 end 
 team_colors("Brooklyn Nets")
 
-def team_names 
+ef team_names 
   team_stats.collect do |team|
     team[:team_name]
   end 
